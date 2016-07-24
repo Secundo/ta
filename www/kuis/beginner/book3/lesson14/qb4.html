@@ -1,0 +1,46 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 14 </div>
+    </ons-toolbar>
+   
+        <p> 9. Are they going to get married? </p>
+
+    <div id="BC1409">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. No, they aren't.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. From 5 o'clock to 7 o'clock.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. On Tuesday.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+
+        <div id="jawaban-soal" style="display:none">A</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC1409')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/book3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>  
+    
+</ons-page>

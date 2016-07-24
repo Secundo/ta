@@ -1,0 +1,48 @@
+<ons-page>
+
+    
+    <ons-toolbar> 
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center"> Lesson 1 - True or False</div>
+    </ons-toolbar>
+    
+    <p> 3. Abbott Larkin's company is making a lot of money. </p>
+    
+    <div id="HI0403">
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. True.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. False.
+                </li>
+            </ul>
+        </form>
+
+        <div id="jawaban-soal" style="display:none">B</div>
+
+        <div id="status-jawaban-benar" style="display:none">TRUE</div>
+        <div id="status-jawaban-salah" style="display:none">FALSE</div>
+
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('HI0403')">
+                    CHECK
+            </ons-button>
+
+
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                    onclick="document.getElementById('navigator')
+                        .pushPage('kuis/high-intermediate/book1/lesson1/in/2/qc4.html')">
+                        CONTINUE
+        </ons-button>   
+    </div>
+
+    
+	
+</ons-page>

@@ -1,0 +1,48 @@
+<ons-page>
+
+    <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+    <ons-toolbar> 
+        <div class="center"> Lesson 6 </div>
+    </ons-toolbar>
+   
+    
+        <p> 1. ........ you work yesterday? </p>
+
+    <div id="BC0601">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. Was
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Did
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Do
+                </li>
+
+            </ul>
+
+
+        </form> 
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0601')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson6/qa2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div> 
+</ons-page>

@@ -1,0 +1,46 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 7 </div>
+    </ons-toolbar>
+    
+        <p> 7. When was she born? </p>
+
+    <div id="BC0707">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. In Stamford.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. On May 15.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. She studied law.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0707')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/book3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>  
+    
+</ons-page>

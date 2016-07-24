@@ -1,0 +1,46 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 3 </div>
+    </ons-toolbar>
+   
+        <p> 6. Do you like chicken? </p>
+
+    <div id="BC0306">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. Here it is.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Which ones?
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Yes. It's delicious.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0306')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson3/qb3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>   
+    
+</ons-page>

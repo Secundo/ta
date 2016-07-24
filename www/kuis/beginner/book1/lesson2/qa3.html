@@ -1,0 +1,44 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 2 </div>
+    </ons-toolbar>
+    
+        <p> 3. Where .....? </p>
+
+    <div id="BA0203">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. 's Stamford
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Stamford
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Stamford is
+                </li>
+
+            </ul>
+
+
+        </form> 
+        
+        <div id="jawaban-soal" style="display:none">A</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BA0203')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book1/lesson2/qa4.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+</ons-page>

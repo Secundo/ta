@@ -1,0 +1,47 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 6 </div>
+    </ons-toolbar>
+
+
+        <p> 6. What did you do last night? </p>
+
+    <div id="BC0606">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. Yes, I did.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. No, I didn't work.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. I watched.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0606')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson6/qb1.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

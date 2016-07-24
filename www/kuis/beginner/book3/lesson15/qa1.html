@@ -1,0 +1,51 @@
+<ons-page>
+
+    <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+    <ons-toolbar> 
+        <div class="center"> Lesson 15 </div>
+    </ons-toolbar>
+   
+    
+        <p> 1. Did you know? </p>
+        <p>Of course I .......</p>
+
+    <div id="BC1501">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. know
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. knows
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. knew
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC1501')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson15/qa2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+	
+</ons-page>

@@ -1,0 +1,48 @@
+<ons-page>
+
+    
+    <ons-toolbar> 
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center"> Lesson 1 - What do they mean?</div>
+    </ons-toolbar>
+    
+    <p> 1. "Good job, Jake." </p>
+    
+    <div id="HI0401">
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. You have an excellent occupation.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. You did good work.
+                </li>
+            </ul>
+        </form>
+
+        <div id="jawaban-soal" style="display:none">B</div>
+
+        <div id="status-jawaban-benar" style="display:none">TRUE</div>
+        <div id="status-jawaban-salah" style="display:none">FALSE</div>
+
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('HI0401')">
+                    CHECK
+            </ons-button>
+
+
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                    onclick="document.getElementById('navigator')
+                        .pushPage('kuis/high-intermediate/book1/lesson1/in/2/qb2.html')">
+                        CONTINUE
+        </ons-button>   
+    </div>
+
+    
+	
+</ons-page>

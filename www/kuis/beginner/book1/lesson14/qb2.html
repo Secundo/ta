@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 14 </div>
+    </ons-toolbar>
+   
+        <p> 7. Do you work in Stamford? </p>
+
+    <div id="BA1407">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. Yes, at ten fifteen.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Yes, he has a job.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Yes, I do.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+
+        <div id="jawaban-soal" style="display:none">C/div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BA1407')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book1/lesson14/qb3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+</ons-page>

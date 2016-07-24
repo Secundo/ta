@@ -1,0 +1,44 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 4 </div>
+    </ons-toolbar>
+    
+        <p> 3. She's ...... actress. </p>
+
+     <div id="BA0403">   
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. - (nothing)
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. a
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. an
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BA0403')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book1/lesson4/qa4.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+</ons-page>

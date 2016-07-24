@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 4 </div>
+    </ons-toolbar>
+    
+        <p> 6. I can't cook. Can you? </p>
+
+    <div id="BB04O6">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. Yes, I can cook very well.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Yes, I'am a good cook.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Both a and b.
+                </li>
+
+            </ul>
+
+
+        </form> 
+        
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB0406')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/lesson4/qb3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>  
+    
+</ons-page>

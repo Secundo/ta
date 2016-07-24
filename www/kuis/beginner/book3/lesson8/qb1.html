@@ -1,0 +1,46 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 8 </div>
+    </ons-toolbar>
+
+
+        <p> 5. You weren't at home yesterday. </p>
+
+    <div id="BC0805">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. No, I wasn't.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. No, you weren't
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. I was a writer
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">A</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0805')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson8/qb2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div> 
+    
+</ons-page>

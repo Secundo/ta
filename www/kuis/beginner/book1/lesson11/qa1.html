@@ -1,0 +1,50 @@
+<ons-page>
+
+   
+    <ons-toolbar> 
+         <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center"> Lesson 11 </div>
+    </ons-toolbar>
+    
+    
+        <p> 1. .......... two hotels across the street. </p>
+
+    <div id="BA1101">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. There's
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Are there
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. There are
+                </li>
+
+            </ul>
+
+
+        </form> 
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BA1101')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book1/lesson11/qa2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>  	
+	
+</ons-page>

@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 4 </div>
+    </ons-toolbar>
+    
+        <p> 6. How do you like the strawberries? </p>
+
+    <div id="BC0406">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. They're very good.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Yes, they are.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. They're very expensive.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">A</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0406')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson4/qb3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

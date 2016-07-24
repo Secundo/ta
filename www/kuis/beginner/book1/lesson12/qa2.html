@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 12 </div>
+    </ons-toolbar>
+    
+        <p> 2. It's ...... old clock. </p>
+
+    <div id="BA1202">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. a
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. - (nothing)
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. an
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BA1202')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book1/lesson12/qa3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>  
+    
+</ons-page>

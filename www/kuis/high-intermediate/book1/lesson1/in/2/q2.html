@@ -1,0 +1,51 @@
+<ons-page>
+
+    
+    <ons-toolbar> 
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center"> Lesson 1 - Watch the video</div>
+    </ons-toolbar>
+    
+    <p> 2. Watch Jake's business report on the video. <br />
+			What sentences do you hear? </p>
+    
+    <div id="HI0202">
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. International Computer Key Company is up two dollars, <br />
+					and everyone knows why.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. International Computer Key Company is up two dollars, <br />
+					but no one knows why.
+                </li>
+            </ul>
+        </form>
+
+        <div id="jawaban-soal" style="display:none">B</div>
+
+        <div id="status-jawaban-benar" style="display:none">TRUE</div>
+        <div id="status-jawaban-salah" style="display:none">FALSE</div>
+
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('HI0202')">
+                    CHECK
+            </ons-button>
+
+
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                    onclick="document.getElementById('navigator')
+                        .pushPage('kuis/high-intermediate/book1/lesson1/in/2/q3.html')">
+                        CONTINUE
+        </ons-button>   
+    </div>
+
+    
+	
+</ons-page>

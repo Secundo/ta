@@ -1,0 +1,52 @@
+<!-- 
+-- halaman baru, cukup ons-page aja, gaperlu ons-template.
+-- gaperlu dikasih id juga, jd nanti ons-navigator yg di index.html,
+-- otomatis nyari file yg namanya sama
+-->
+<ons-page>
+    <ons-toolbar>
+        <!-- bikin tombol back -->
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center">BOOKS LEVEL</div>
+    </ons-toolbar>
+    
+    <!-- 
+    -- untuk link, cukup ganti parameter di pushPage aja 
+    -- link dimulai dari root, soalnya halaman2 ini di load ke index.html
+    --
+    -- misal mau ngelink ke book.html, dimulainya dari root
+    -- jd materi/book.html
+    --
+    -- misal halaman kuis, kuis/kuis.html.
+    -->
+    <ons-button modifier="large" 
+    	onclick="document.getElementById('navigator')
+    	            .pushPage('materi/beginner/beginner.html')"
+    >
+        Beginner
+    </ons-button>
+    
+    <ons-button modifier="large"
+        	onclick="document.getElementById('navigator')
+    	            .pushPage('materi/intermediate/intermediate.html')"
+    >
+        Intermediate
+    </ons-button>
+    
+    <ons-button modifier="large"
+        	onclick="document.getElementById('navigator')
+    	            .pushPage('materi/high-intermediate/hiIntermediate.html')"
+    >
+        High Intermediate
+    </ons-button>
+    
+    <ons-button modifier="large"
+        	onclick="document.getElementById('navigator')
+    	            .pushPage('materi/advanced/advanced.html')"
+    >
+        Advanced
+    </ons-button>
+    
+</ons-page>

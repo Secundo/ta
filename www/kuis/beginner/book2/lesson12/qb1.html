@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 12 </div>
+    </ons-toolbar>
+
+        <p> 5. Would you like to go water-skiing tomorrow? </p>
+
+    <div id="BB1205">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. I can't. I have an appointment.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Yes, I'd like to.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. both a and b
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB1205')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/lesson12/qb2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>  
+    
+</ons-page>

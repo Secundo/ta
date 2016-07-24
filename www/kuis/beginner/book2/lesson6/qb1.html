@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 6 </div>
+    </ons-toolbar>
+
+        <p> 6. What's he wearing? </p>
+
+    <div id="BB0606">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. A suit.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Brown hair.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Both a and b.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">A</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB0606')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/lesson6/qb2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div> 
+    
+</ons-page>

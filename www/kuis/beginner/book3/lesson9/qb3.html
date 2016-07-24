@@ -1,0 +1,46 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 9 </div>
+    </ons-toolbar>
+    
+        <p> 8. When did you work in New York?</p>
+
+    <div id="BC0908">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. For five years.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. In an office.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. From 1987 to 1989.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0908')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson9/qb4.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

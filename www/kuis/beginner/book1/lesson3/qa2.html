@@ -1,0 +1,44 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 3 </div>
+    </ons-toolbar>
+    
+        <p> 2. What's ...... name? I'm Linda Marino. </p>
+
+    <div id="BA0302">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. his
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. her
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. your
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BA0302')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book1/lesson3/qa3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+</ons-page>

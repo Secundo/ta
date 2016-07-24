@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 13 </div>
+    </ons-toolbar>
+   
+        <p> 7. What do you have to do this weekend? </p>
+
+    <div id="BB1307">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. I have to hurry.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. I have to study English.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. I have to smoke a lot of cigarettes.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB1307')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/lesson13/qb3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

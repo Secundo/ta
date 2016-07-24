@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 8 </div>
+    </ons-toolbar>
+    
+        <p> 6. Where was Walt Disney born? </p>
+
+    <div id="BC0806">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. In 1901
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. He was a movie producer
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. In the United States
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0806')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson8/qb3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

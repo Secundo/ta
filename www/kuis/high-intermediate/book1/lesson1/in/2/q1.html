@@ -1,0 +1,49 @@
+<ons-page>
+
+    
+    <ons-toolbar> 
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center"> Lesson 1 - Watch the video</div>
+    </ons-toolbar>
+    
+    <p> 1. Watch Jake's business report on the video. <br />
+			What sentences do you hear? </p>
+    
+    <div id="HI0201">
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. In business news, stock prices are up.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. In business news, stock prices are down.
+                </li>
+            </ul>
+        </form>
+
+        <div id="jawaban-soal" style="display:none">A</div>
+
+        <div id="status-jawaban-benar" style="display:none">TRUE</div>
+        <div id="status-jawaban-salah" style="display:none">FALSE</div>
+
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('HI0201')">
+                    CHECK
+            </ons-button>
+
+
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                    onclick="document.getElementById('navigator')
+                        .pushPage('kuis/high-intermediate/book1/lesson1/in/2/q2.html')">
+                        CONTINUE
+        </ons-button>   
+    </div>
+
+    
+	
+</ons-page>

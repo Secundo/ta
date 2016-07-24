@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 1 </div>
+    </ons-toolbar>
+   
+        <p> 9. What do you like to do on Saturday night? </p>
+
+    <div id="BB0109">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. I like it.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. I don't like music.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. I like to dance.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">C</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB0109')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/book2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

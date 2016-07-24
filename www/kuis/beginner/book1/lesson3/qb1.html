@@ -1,0 +1,46 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 3 </div>
+    </ons-toolbar>
+  
+
+        <p> 6. What's the weather like? </p>
+
+    <div id="BA0306">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. It's hot!
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. It's four o'clock.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Good afternoon.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">A</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BA0306')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book1/lesson3/qb2.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>  
+    
+</ons-page>

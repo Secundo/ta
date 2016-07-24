@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 10 </div>
+    </ons-toolbar>
+   
+        <p> 8. Would you like to go to a movie with me? </p>
+
+    <div id="BB1008">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. I'm sorry, I can.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. I'm sorry, I can't.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. I don't like it.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB1008')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/lesson10/qa4.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

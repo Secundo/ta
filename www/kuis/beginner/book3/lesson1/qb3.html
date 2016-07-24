@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 1 </div>
+    </ons-toolbar>
+   
+        <p> 8. Do you have any grapes? </p>
+
+    <div id="BC0108">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. No, thanks.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Sorry, we're out of grapes.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. I don't need any grapes.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0108')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/lesson1/qb4.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

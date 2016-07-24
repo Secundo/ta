@@ -1,0 +1,38 @@
+<ons-page>
+    <ons-toolbar>
+        <!-- bikin tombol back -->
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center">QUIZ</div>
+    </ons-toolbar>
+
+    <ons-button modifier="large" 
+    	onclick="document.getElementById('navigator')
+    	            .pushPage('kuis/beginner/beginner.html')"
+    >
+        Beginner
+    </ons-button>
+    
+    <ons-button modifier="large"
+        	onclick="document.getElementById('navigator')
+    	            .pushPage('kuis/intermediate/intermediate.html')"
+    >
+        Intermediate
+    </ons-button>
+    
+    <ons-button modifier="large"
+        	onclick="document.getElementById('navigator')
+    	            .pushPage('kuis/high-intermediate/hiIntermediate.html')"
+    >
+        High Intermediate
+    </ons-button>
+    
+    <ons-button modifier="large"
+        	onclick="document.getElementById('navigator')
+    	            .pushPage('kuis/advance/advance.html')"
+    >
+        Advance
+    </ons-button>
+    
+</ons-page>

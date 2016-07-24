@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 6 </div>
+    </ons-toolbar>
+    
+        <p> 7. How tall is Chris?  </p>
+
+    <div id="BB0607">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. About thirty.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. About five two.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. About three thirty.
+                </li>
+
+            </ul>
+
+
+        </form> 
+        
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB0607')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/lesson6/qb3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

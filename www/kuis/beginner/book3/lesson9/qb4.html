@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 9 </div>
+    </ons-toolbar>
+    
+        <p> 9. Where did she live? </p>
+
+    <div id="BC0909">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. From 1986 to 1989.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. In Mexico City.
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Last Friday.
+                </li>
+
+            </ul>
+
+
+        </form> 
+
+        <div id="jawaban-soal" style="display:none">B</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BC0909')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book3/book3.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+    
+</ons-page>

@@ -1,0 +1,44 @@
+<ons-page>
+    <ons-toolbar> 
+        <div class="center"> Lesson 4 </div>
+    </ons-toolbar>
+    
+        <p> 3. ........ John like to dance? </p>
+
+    <div id="BB0403">    
+        <form>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="A">
+                    A. Does
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="B">
+                    B. Is
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" value="C">
+                    C. Can
+                </li>
+
+            </ul>
+
+
+        </form> 
+        
+        <div id="jawaban-soal" style="display:none">A</div>
+        <div id="status-jawaban-benar" style="display:none">BENAR</div>
+        <div id="status-jawaban-salah" style="display:none">SALAH</div>
+        <ons-button id="bcheck" style="display:" modifier="large" 
+                    onclick="check('BB0403')">
+                        CHECK
+        </ons-button>
+        <ons-button id="bcon" style="display:none" modifier="large" 
+                     onclick="document.getElementById('navigator')
+                            .pushPage('kuis/beginner/book2/lesson4/qa4.html')">
+                            CONTINUE
+        </ons-button>   
+    </div>
+</ons-page>
